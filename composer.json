@@ -1,5 +1,5 @@
 {
-	"name": "cebe/markdown",
+	"name": "imada/markdown",
 	"description": "A super fast, highly extensible markdown parser for PHP",
 	"keywords": ["markdown", "gfm", "markdown-extra", "fast", "extensible"],
 	"homepage": "https://github.com/cebe/markdown#readme",
