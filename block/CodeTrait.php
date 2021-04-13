@@ -17,8 +17,9 @@ trait CodeTrait
 	 */
 	protected function identifyCode($line)
 	{
-		// indentation >= 4 or one tab is code
-		return ($l = $line[0]) === ' ' && $line[1] === ' ' && $line[2] === ' ' && $line[3] === ' ' || $l === "\t";
+		// one tab is code
+		//return ($l = $line[0]) === ' ' && $line[1] === ' ' && $line[2] === ' ' && $line[3] === ' ' || $l === "\t";
+        return $line[0] === "\t";
 	}
 
 	/**
